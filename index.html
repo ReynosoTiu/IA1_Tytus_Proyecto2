@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA1 Tytus.js</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Machine Learning con Tytus.js</h1>
+
+    <label for="fileInput">Selecciona archivo CSV</label>
+    <input type="file" id="fileInput" accept=".csv">
+
+    <label for="modelSelect">Seleccionar modelo</label>
+    <select id="modelSelect">
+        <option value="linear_regression">Regresión lineal</option>
+        <option value="k_means">K-Means</option>
+    </select>
+
+    <label for="trainPercentage">Porcentaje de entrenamiento:</label>
+    <input type="number" id="trainPercentage" min="0" max="100" value="70">%
+
+    <button id="btnTrain">Entrenar</button>
+    <button id="btnPredict">Predecir</button>
+    <button id="btnShowGraph">Mostrar Gráfica</button>
+
+    <canvas id="chartCanvas"></canvas>
+
+    <script src="./lib/tytus.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
