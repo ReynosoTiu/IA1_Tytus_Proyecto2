@@ -9,7 +9,7 @@ function setupTreeSelectors() {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.id = `headerCheckbox-${i}`;
-        checkbox.checked = false;
+        checkbox.checked = true;
         checkbox.addEventListener('change', () => {
             UpdateDatasetTabla();
         });
@@ -128,11 +128,11 @@ function startTreeTraining() {
         dotStr: modelInstance.generateDotString(root),
         predictNode: predict
     };
-    
-    console.log(vis.network.convertDot(visTreeGraphInfo.dotStr));
+    const nodos = vis.network.convertDot(visTreeGraphInfo.dotStr);
 
+    if(!predict.value) alert("No se pudo predecir el valor, por favor selecciona otras columnas numéricas");
     document.getElementById('treeresult').value = predict.value;
-    alert("Modelo de regresión lineal entrenado con éxito.");
+    alert(`Modelo de regresión lineal entrenado con éxito. ${nodos.edges.length} conexiones y ${nodos.nodes.length} nodos generados`);
 }
 
 
@@ -142,7 +142,6 @@ function showGraphTree(graphData) {
         dotStr
     } = graphData;
     var parsDot = vis.network.convertDot(dotStr);
-    console.log(parsDot);
     var data = {
         nodes: parsDot.nodes,
         edges: parsDot.edges
