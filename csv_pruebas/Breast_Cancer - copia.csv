@@ -1,0 +1,20 @@
+Age,Race,Marital Status,T Stage ,N Stage,6th Stage,differentiate,Grade,A Stage,Tumor Size,Estrogen Status,Progesterone Status,Regional Node Examined,Reginol Node Positive,Survival Months,Status
+68,White,Married,T1,N1,IIA,Poorly differentiated,3,Regional,4,Positive,Positive,24,1,60,Alive
+50,White,Married,T2,N2,IIIA,Moderately differentiated,2,Regional,35,Positive,Positive,14,5,62,Alive
+58,White,Divorced,T3,N3,IIIC,Moderately differentiated,2,Regional,63,Positive,Positive,14,7,75,Alive
+58,White,Married,T1,N1,IIA,Poorly differentiated,3,Regional,18,Positive,Positive,2,1,84,Alive
+47,White,Married,T2,N1,IIB,Poorly differentiated,3,Regional,41,Positive,Positive,3,1,50,Alive
+51,White,Single ,T1,N1,IIA,Moderately differentiated,2,Regional,20,Positive,Positive,18,2,89,Alive
+51,White,Married,T1,N1,IIA,Well differentiated,1,Regional,8,Positive,Positive,11,1,54,Alive
+40,White,Married,T2,N1,IIB,Moderately differentiated,2,Regional,30,Positive,Positive,9,1,14,Dead
+40,White,Divorced,T4,N3,IIIC,Poorly differentiated,3,Regional,103,Positive,Positive,20,18,70,Alive
+69,White,Married,T4,N3,IIIC,Well differentiated,1,Distant,32,Positive,Positive,21,12,92,Alive
+68,White,Widowed,T1,N1,IIA,Moderately differentiated,2,Regional,13,Positive,Positive,9,1,64,Dead
+46,White,Married,T3,N1,IIIA,Poorly differentiated,3,Regional,59,Negative,Negative,11,3,92,Alive
+65,White,Married,T2,N1,IIB,Poorly differentiated,3,Regional,35,Positive,Positive,13,3,56,Alive
+48,White,Married,T1,N2,IIIA,Poorly differentiated,3,Regional,15,Positive,Positive,23,7,38,Alive
+62,White,Divorced,T2,N3,IIIC,Moderately differentiated,2,Regional,35,Positive,Positive,16,14,64,Alive
+61,White,Married,T1,N1,IIA,Moderately differentiated,2,Regional,19,Positive,Positive,20,1,49,Alive
+56,White,Single ,T2,N1,IIB,Moderately differentiated,2,Regional,46,Positive,Positive,1,1,105,Alive
+43,White,Married,T2,N1,IIB,Moderately differentiated,2,Regional,24,Positive,Positive,22,1,62,Alive
+48,Black,Divorced,T2,N1,IIB,Moderately differentiated,2,Regional,25,Positive,Positive,16,1,107,Alive
